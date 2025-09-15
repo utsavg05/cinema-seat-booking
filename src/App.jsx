@@ -1,7 +1,11 @@
+import CinemaSeatBooking from "./components/CinemaSeatBooking"
+
 function App() {
 
   return (
-    <div className="text-4xl">seat booking seating system</div>
+    <div>
+      <CinemaSeatBooking />
+    </div>
   )
 }
 
